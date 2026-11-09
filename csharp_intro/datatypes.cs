@@ -66,6 +66,7 @@
         Console.WriteLine(a1 + "\n" + a2 + "\n" + a3);
         Console.WriteLine("-------------------------");
 
+        //floting datatypes are float,decimal,double
         //float
         float price = 10.45f;
         float height = 5.4f;
@@ -74,7 +75,7 @@
 
         //double
         double x1 = 99.98;
-        double x2 = 123.456;
+        double x2 = 123.456;    
         double x3 = 45.38;
         Console.WriteLine(x1);
         Console.WriteLine(x2);
@@ -87,6 +88,65 @@
         Console.WriteLine(age1);
         Console.WriteLine(numsd);
         Console.WriteLine(gds);
+
+        bool name = true;
+        Console.WriteLine(name);
+
+        object value = "janu";
+        Console.WriteLine(value);
+
+        object z1 = 'A';
+        object z2 = 123;
+        object z3= "hi";
+        object z4 = 23.45f;
+        Console.WriteLine(z1);
+        Console.WriteLine(z2);
+        Console.WriteLine(z3);
+        Console.WriteLine(z4);
+
+
+
+
+        string studentname = "soumya";
+        int studentage = 22;
+        double studentmarks = 65.40;
+        float studentheight = 55.4f;
+        decimal studentamount = 50000.60m;
+        object studentdetails =  "1000weg2";
+        char studentfirstnameletter = 's';
+        string[] studentlikes = { "fruits", "chocolate" };
+
+        foreach(string studentlike in studentlikes)
+        {
+            Console.WriteLine(studentlike);
+        }
+
+        Console.WriteLine(studentname);
+        Console.WriteLine(studentage);
+        Console.WriteLine(studentamount);
+        Console.WriteLine(studentdetails);
+        Console.WriteLine(studentfirstnameletter);
+
+        //boxing and unboxing
+
+        int ab = 10;
+        object bc = ab;
+        Console.WriteLine(bc);
+
+
+        object z = 100;
+        int z5 = (int)z;
+        Console.WriteLine(z5);
+
+
+
+
+
+
+
+
+
+
 
 
 
