@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Family.FamDetails</StartupObject>
+    <StartupObject>interfaceProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,18 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".cs" />
+    <Compile Include="callingMembers.cs" />
+    <Compile Include="classArrayConcept.cs\classArray.cs" />
+    <Compile Include="classArrayConcept.cs\studentMarks.cs" />
+    <Compile Include="constReaddOnly.cs" />
+    <Compile Include="constructorDemo.cs" />
     <Compile Include="datatypes.cs" />
+    <Compile Include="inheritance.cs" />
+    <Compile Include="InheritanceConcept\base&amp;thisKeyword.cs" />
+    <Compile Include="InheritanceConcept\childParentConstructor.cs" />
+    <Compile Include="InheritanceConcept\Upcasting.cs" />
+    <Compile Include="INTERFACEConcept.cs\Interface1.cs" />
     <Compile Include="Namespace\Employee.cs" />
-    <Compile Include="Namespace\MainClass.cs" />
     <Compile Include="Namespace\multiNamespace.cs" />
     <Compile Include="Demo.cs" />
+    <Compile Include="parameterisedConstructor.cs" />
     <Compile Include="properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticClass.cs" />
+    <Compile Include="staticClassDemo.cs" />
+    <Compile Include="String-propertices-methods.cs" />
     <Compile Include="Strings.cs" />
-    <Compile Include="Namespace\Student.cs" />
+    <Compile Include="Namespace\MyApplication.cs" />
+    <Compile Include="Type-Conversion\Explicit.cs" />
+    <Compile Include="Type-Conversion\Implicit.cs" />
+    <Compile Include="var-dynamic .cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
