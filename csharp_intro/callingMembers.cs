@@ -12,11 +12,9 @@ class Employe
 {
     // Static field
     public static int employeId = 101;
-
-    // Non-static field
     public string employeName = "Rahul";
 
-    // Static method
+ 
     public static void Show()
     {
         Console.WriteLine("Employee ID: " + employeId);
