@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PaymentruntimeProgram</StartupObject>
+    <StartupObject>refInOutconcept.InProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -77,6 +77,9 @@
     <Compile Include="Namespace\MyApplication.cs" />
     <Compile Include="Type-Conversion\Explicit.cs" />
     <Compile Include="Type-Conversion\Implicit.cs" />
+    <Compile Include="Type-params\ref-in-out.cs" />
+    <Compile Include="Type-params\referencetype.cs" />
+    <Compile Include="Type-params\valueType.cs" />
     <Compile Include="var-dynamic .cs" />
   </ItemGroup>
   <ItemGroup>
