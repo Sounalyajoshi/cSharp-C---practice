@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>refInOutconcept.InProgram</StartupObject>
+    <StartupObject>PersonDetails</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,11 +56,16 @@
     <Compile Include="constReaddOnly.cs" />
     <Compile Include="constructorDemo.cs" />
     <Compile Include="datatypes.cs" />
+    <Compile Include="GenericExample.cs" />
     <Compile Include="inheritance.cs" />
     <Compile Include="InheritanceConcept\base&amp;thisKeyword.cs" />
     <Compile Include="InheritanceConcept\childParentConstructor.cs" />
     <Compile Include="InheritanceConcept\Upcasting.cs" />
     <Compile Include="INTERFACEConcept.cs\Interface1.cs" />
+    <Compile Include="Method return\MethodReturnSecondExmaple.cs" />
+    <Compile Include="Method return\multiObjectReturnTomethod.cs" />
+    <Compile Include="Method return\singleObjectReturnToMethod.cs" />
+    <Compile Include="namedTypeParam.cs" />
     <Compile Include="Namespace\Employee.cs" />
     <Compile Include="Namespace\multiNamespace.cs" />
     <Compile Include="Demo.cs" />
