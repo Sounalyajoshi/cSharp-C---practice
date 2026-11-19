@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PersonDetails</StartupObject>
+    <StartupObject>ListExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,12 +56,15 @@
     <Compile Include="constReaddOnly.cs" />
     <Compile Include="constructorDemo.cs" />
     <Compile Include="datatypes.cs" />
+    <Compile Include="Extension\Extension-Method.cs" />
+    <Compile Include="Extension\extensionmethodforexistData.cs" />
     <Compile Include="GenericExample.cs" />
     <Compile Include="inheritance.cs" />
     <Compile Include="InheritanceConcept\base&amp;thisKeyword.cs" />
     <Compile Include="InheritanceConcept\childParentConstructor.cs" />
     <Compile Include="InheritanceConcept\Upcasting.cs" />
     <Compile Include="INTERFACEConcept.cs\Interface1.cs" />
+    <Compile Include="LybrariesBook.cs" />
     <Compile Include="Method return\MethodReturnSecondExmaple.cs" />
     <Compile Include="Method return\multiObjectReturnTomethod.cs" />
     <Compile Include="Method return\singleObjectReturnToMethod.cs" />
@@ -77,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticClass.cs" />
     <Compile Include="staticClassDemo.cs" />
+    <Compile Include="step4 concepts\ArrayExample.cs" />
+    <Compile Include="step4 concepts\ArrayList.cs" />
+    <Compile Include="step4 concepts\List.cs" />
     <Compile Include="String-propertices-methods.cs" />
     <Compile Include="Strings.cs" />
     <Compile Include="Namespace\MyApplication.cs" />
